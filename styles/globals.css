@@ -12,6 +12,11 @@
 a{
   text-decoration: none !important;
 }
+
+.my-container {
+  max-width:1140px;
+  margin: 0 auto
+}
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -683,6 +688,7 @@ hr {
 .pdkhien {
   margin: 30px 0px 10px;
   font-family: Quicksand-Medium;
+  width:100%;
 }
 
 .pdk-hien-tieude {
@@ -1012,6 +1018,11 @@ hr {
   min-width: 400px;
   width: 60%;
 }
+.fdkhien {
+  margin: 20px auto;
+  min-width: 400px;
+  width: 100%;
+}
 .boxlogin {
   margin: 20px auto;
   min-width: 400px;
@@ -1104,6 +1115,9 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.my-label {
+  font-weight: 500 !important;
 }
 .chitietdiachi {
   font-weight: 500 !important;

@@ -23,6 +23,12 @@
 }
 
 @media (min-device-width: 1024px) and (max-device-width: 1200px) {
+    .imgCMND {
+        width: 150px;
+    }
+    .my-container {
+        max-width: 960px;
+    }
     #boxGioiThieuGrid .grid-item {
         margin-top: 15px;
         height: 170px;
@@ -138,12 +144,20 @@
     /* .hidden-xs {
       display: none !important;
   } */
-  .NoiDungCauHoiFilter {
-      flex: 2;
-  }
-  .button-timkiem {
-      flex: 1
-  }
+    .imgCMND {
+        width: 150px;
+    }
+    .fdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .NoiDungCauHoiFilter {
+        flex: 2;
+    }
+    .button-timkiem {
+        flex: 1;
+    }
     #basic-navbar-nav-top {
         display: none !important;
     }
@@ -496,6 +510,19 @@
 }
 
 @media (min-device-width: 480px) and (max-device-width: 767px) {
+    .fdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+
+    .form-email-phone,
+    .form-ho-ten,
+    .form-Date-gender,
+    .form-diachithuongchu,
+    .form-maxacnhan {
+        flex-direction: column;
+    }
     .form-hoidap {
         flex-direction: column;
     }
@@ -829,7 +856,7 @@
         transform: translate(-50%, -50%) !important;
         width: 95%;
         margin: 0rem;
-        max-width:700px
+        max-width: 700px;
     }
     .noidung-ct {
         padding: 0rem 1rem;
@@ -840,6 +867,27 @@
 }
 
 @media (min-device-width: 425px) and (max-device-width: 479px) {
+    .Title-Login-Register {
+        font-size: 25px;
+    }
+    .boxdangky {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+
+    .fdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .form-email-phone,
+    .form-ho-ten,
+    .form-Date-gender,
+    .form-diachithuongchu,
+    .form-maxacnhan {
+        flex-direction: column;
+    }
     .form-hoidap {
         flex-direction: column;
     }
@@ -1110,6 +1158,26 @@
 }
 
 @media (min-device-width: 320px) and (max-device-width: 375px) {
+    .Title-Login-Register {
+        font-size: 25px;
+    }
+    .fdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .boxdangky {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .form-email-phone,
+    .form-ho-ten,
+    .form-Date-gender,
+    .form-diachithuongchu,
+    .form-maxacnhan {
+        flex-direction: column;
+    }
     .form-hoidap {
         flex-direction: column;
     }
@@ -1419,6 +1487,26 @@
 }
 
 @media (min-device-width: 376px) and (max-device-width: 424px) {
+    .Title-Login-Register {
+        font-size: 25px;
+    }
+    .fdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .boxdangky {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .form-email-phone,
+    .form-ho-ten,
+    .form-Date-gender,
+    .form-diachithuongchu,
+    .form-maxacnhan {
+        flex-direction: column;
+    }
     .form-hoidap {
         flex-direction: column;
     }
@@ -1688,6 +1776,26 @@
 }
 
 @media (min-device-width: 320px) and (max-device-width: 375px) {
+    .Title-Login-Register {
+        font-size: 25px;
+    }
+    .pdkhien {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .boxdangky {
+        margin: 10px auto;
+        min-width: 0px;
+        width: 80%;
+    }
+    .form-email-phone,
+    .form-ho-ten,
+    .form-Date-gender,
+    .form-diachithuongchu,
+    .form-maxacnhan {
+        flex-direction: column;
+    }
     .form-hoidap {
         flex-direction: column;
     }
